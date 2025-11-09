@@ -36,6 +36,10 @@
         border-bottom-right-radius: 60px;
     }
 
+    .header-video {
+        border-bottom-right-radius: 60px;
+    }
+
     .header-row {
         column-gap: 60px;
 
