@@ -287,7 +287,7 @@ body {
     background-color: #dedede;
 }
 
-/* FeedBack */
+/* Feedback */
 .contact-form {
     max-width: 600px;
     margin: 0 auto 40px;
@@ -331,4 +331,78 @@ body {
 .contact-form button {
     width: 100%;
     margin-top: 10px;
+}
+
+/* Requirements */
+.requirements-list {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.requirement-item {
+    background: #f8f8f8;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 4px solid #1782cf;
+}
+
+.requirement-item.completed {
+    border-left-color: #28a745;
+    background: #f8fff9;
+}
+
+.requirement-item.not-completed {
+    border-left-color: #dc3545;
+    background: #fff8f8;
+}
+
+.requirement-header {
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.requirement-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+
+
+.requirement-details {
+    color: #555;
+    line-height: 1.6;
+}
+
+.requirement-details ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.requirement-details li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+.screenshot {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.code-example {
+    background: #2d2d2d;
+    color: #f8f8f8;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    margin: 15px 0;
+    overflow-x: auto;
 }

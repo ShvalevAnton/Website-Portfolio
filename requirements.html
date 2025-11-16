@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реализованные требования</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body>
+    <article class="inner-page">
+        <div class="container">
+            <div class="inner-page-details">
+                <h1 class="inner-page-title">Реализованные требования для зачёта</h1>
+                <div class="inner-page-text">
+                    <p>Ниже представлен список требований к Web-сайту и статус их выполнения</p>
+                </div>
+            </div>
+
+            <div class="requirements-list">
+                <!-- 1.1 -->
+                <div class="requirement-item completed">
+                    <div class="requirement-header">
+                        <h3 class="requirement-title">1.1. Семантическая разметка HTML5</h3>
+                    </div>
+                    <div class="requirement-details">
+                        <p>Использовано более 5 семантических элементов:</p>
+                        <ul>
+                            <li><code>&lt;header&gt;</code> - шапка сайта</li>
+                            <li><code>&lt;main&gt;</code> - основное содержимое</li>
+                            <li><code>&lt;section&gt;</code> - секции портфолио и контактов</li>
+                            <li><code>&lt;article&gt;</code> - проекты и внутренние страницы</li>
+                            <li><code>&lt;footer&gt;</code> - подвал сайта</li>
+                            <li><code>&lt;nav&gt;</code> - навигация (неявно через ссылки)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 1.2 -->
+                <div class="requirement-item completed">
+                    <div class="requirement-header">
+                        <h3 class="requirement-title">1.2. Новые правила CSS3</h3>
+                    </div>
+                    <div class="requirement-details">
+                        <p>Применено более 5 новых правил CSS3:</p>
+                        <ul>
+                            <li><code>border-radius</code> - скругления углов</li>
+                            <li><code>flexbox</code> - современная вёрстка</li>
+                            <li><code>transition</code> - плавные анимации</li>
+                            <li><code>@media</code> - адаптивный дизайн</li>
+                            <li><code>object-fit</code> - работа с изображениями</li>
+                            <li><code>scroll-behavior: smooth</code> - плавная прокрутка</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 1.3 -->
+                <div class="requirement-item completed">
+                    <div class="requirement-header">
+                        <h3 class="requirement-title">1.3. Элементы управления форм HTML5</h3>
+                    </div>
+                    <div class="requirement-details">
+                        <p>Использовано более 5 новых элементов управления:</p>
+                        <ul>
+                            <li><code>type="email"</code> - поле для email</li>
+                            <li><code>type="tel"</code> - поле для телефона</li>
+                            <li><code>type="url"</code> - поле для веб-сайта</li>
+                            <li><code>type="range"</code> - ползунок для оценки</li>
+                            <li><code>placeholder</code> - подсказки в полях</li>
+                            <li><code>required</code> - обязательные поля</li>
+                            <li><code>pattern</code> - валидация по шаблону</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 1.4 -->
+                <div class="requirement-item completed">
+                    <div class="requirement-header">
+                        <h3 class="requirement-title">1.4. WebStorage (localStorage)</h3>
+                    </div>
+                    <div class="requirement-details">
+                        <p>Реализовано хранение данных в браузере:</p>
+                        <ul>
+                            <li>Сохранение даты последнего визита</li>
+                            <li>Подсчёт количества посещений сайта</li>
+                            <li>Вывод информации в консоль браузера</li>
+                        </ul>
+
+                        <div class="code-example">
+                            // Сохраняем дату последнего визита<br>
+                            localStorage.setItem('gfdf76g68dfg65df6', new Date().toISOString());<br>
+                            <br>
+                            // Счетчик посещений<br>
+                            const visits = parseInt(localStorage.getItem('4fg3fd35gdfg54df5') || '0') + 1;<br>
+                            localStorage.setItem('4fg3fd35gdfg54df5', visits);<br>
+                            <br>
+                            // Вывод в консоль для проверки<br>
+                            console.log(`Вы посетили сайт ${visits} раз`);
+                        </div>
+
+                        <p><strong>Скриншот работы localStorage в консоли браузера:</strong></p>
+                        <img src="img/requirement/screen.JPG" alt="Скриншот консоли с работой localStorage"
+                            class="screenshot">
+                        <p><em>Код находится в файле index.html</em></p>
+                    </div>
+                </div>
+
+                <!-- 1.6 -->
+                <div class="requirement-item completed">
+                    <div class="requirement-header">
+                        <h3 class="requirement-title">1.6. Мультимедийные объекты</h3>
+                    </div>
+                    <div class="requirement-details">
+                        <p>Добавлено видео на главную страницу:</p>
+                        <ul>
+                            <li>Тег <code>&lt;video&gt;</code> с фоновым видео</li>
+                            <li>Автовоспроизведение с отключённым звуком</li>
+                            <li>Зацикливание видео</li>
+                            <li>Адаптивное отображение</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="index.html" class="inner-page-backlink">
+                <img src="img/icons/arrow-left.svg" alt="Назад на главную">
+                Назад на главную
+            </a>
+        </div>
+    </article>
+</body>
+
+</html>
