@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Base*/
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -33,7 +34,8 @@ body {
     background-color: #000;
     color: #fff;
 }
-.header .container{
+
+.header .container {
     position: relative;
     z-index: 9;
 }
@@ -285,8 +287,7 @@ body {
     background-color: #dedede;
 }
 
-/* Добавил для зачётного задания*/
-/* Contact Form Styles */
+/* FeedBack */
 .contact-form {
     max-width: 600px;
     margin: 0 auto 40px;
