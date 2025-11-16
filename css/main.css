@@ -284,3 +284,50 @@ body {
 .inner-page-backlink:hover {
     background-color: #dedede;
 }
+
+/* Добавил для зачётного задания*/
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 30px;
+    background: #f8f8f8;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #1782cf;
+}
+
+.contact-form input[type="range"] {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.contact-form button {
+    width: 100%;
+    margin-top: 10px;
+}

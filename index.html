@@ -23,6 +23,7 @@
                     <p class="header-text"> фрилансер, веб-разработчик,<br> создание сайтов</p>
                     <div class="header-btns">
                         <a href="#portfolio" class="btn">Портфолио</a>
+                        <a href="feedback.html" class="btn-outline">Обратная связь</a>
                         <a href="#contacts" class="btn-outline">Контакты</a>
                     </div>
                 </div>
@@ -71,7 +72,7 @@
                     </article>
                 </div>
             </div>
-        </section >
+        </section>
 
         <section class="contacts" id="contacts">
             <div class="container">
@@ -100,7 +101,15 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        // Сохраняем дату последнего визита
+        localStorage.setItem('gfdf76g68dfg65df6', new Date().toISOString());
+        const visits = parseInt(localStorage.getItem('4fg3fd35gdfg54df5') || '0') + 1;
+        // Счетчик посещений
+        localStorage.setItem('4fg3fd35gdfg54df5', visits);
+        // Вывод в консоль для проверки
+        console.log(`Вы посетили сайт ${visits} раз`);
+    </script>
 
 
 </body>
