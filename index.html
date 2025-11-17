@@ -100,7 +100,13 @@
             </div>
         </div>
     </footer>
+<!--
+    Не блокирует загрузку сайта с видео, изображениями и анимациями.    
+    Пользователь сразу видит страницу, а скрипт выполняется "в фоне".
+    Логика не зависит от DOM.
+-->
     <script>
+        "use strict"; // Включение строгого режима 
         // Сохраняем дату последнего визита
         localStorage.setItem('gfdf76g68dfg65df6', new Date().toISOString());
         const visits = parseInt(localStorage.getItem('4fg3fd35gdfg54df5') || '0') + 1;
